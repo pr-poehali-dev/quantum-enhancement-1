@@ -18,20 +18,20 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            src="https://cdn.poehali.dev/projects/78e443c9-7599-4ce4-b0cd-841fe68d5489/files/4a717594-85b2-441c-911e-2f06972590f4.jpg"
+            alt="AI диагностика опорно-двигательного аппарата"
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-blue-950/50" />
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+      <h3 className="absolute top-12 right-6 text-teal-300 uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest">
+        Анализ в реальном времени
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
+      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-4xl z-10 leading-tight font-bold">
+        Камера видит то, что не замечает глаз. MotionAI оценивает каждое движение и помогает выполнять упражнения правильно с первой попытки.
       </p>
     </div>
   );
